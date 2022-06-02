@@ -1,0 +1,4 @@
+Abrir la terminal en la ruta del archivo json 
+y ejecutar el siguiente comando.
+
+json-server --watch db.json
