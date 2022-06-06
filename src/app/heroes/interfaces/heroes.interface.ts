@@ -13,8 +13,4 @@ export enum Publisher {
     MarvelComics = "Marvel Comics",
 }
 
-export interface Usuario {
-    id: number;
-    usuario: string;
-    email: string;
-}
+

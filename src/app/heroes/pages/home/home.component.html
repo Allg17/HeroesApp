@@ -26,7 +26,8 @@
         </button>
 
         <span class="spacer"></span>
-        <button mat-button>logout</button>
+        <h3>{{auth.auth.usuario}}</h3>
+        <button mat-button (click)="logout()">logout</button>
     </mat-toolbar>
     <div class="container">
         <router-outlet></router-outlet>
